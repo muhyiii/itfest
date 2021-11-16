@@ -51,3 +51,15 @@ button {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
+.px{
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+.mid{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}

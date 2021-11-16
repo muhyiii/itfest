@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 * {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 8px;
 }
+
 .flex {
   display: flex;
 }
@@ -9,15 +12,18 @@
 .items-center {
   justify-items: center;
 }
+
 .justify-center {
   justify-content: center;
 }
+
 .justify-between {
   justify-content: space-between;
 }
 
 button {
   border: none;
+  background: none;
 }
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
@@ -72,6 +78,40 @@ button {
   padding: 50px 35px 0px 35px;
 }
 
+.text-blue {
+  color: #0cafe2;
+}
+
+.text-button {
+  font-size: 15px;
+}
+
+.bg-blue {
+  background-color: #0cafe2;
+}
+
+.sign-up {
+  padding: 6px 17px;
+  border-radius: 100px;
+  color: white;
+}
+
+.rounded-full{
+  border-radius: 100px;
+
+}
+
+.bg-blue:hover {
+  padding: 6px 17px;
+  border-radius: 100px;
+  background-color: #fff;
+  color: #0cafe2;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
 .box .imgBox img {
   height: 100px;
 }
@@ -84,4 +124,8 @@ button {
 #bot {
   margin-top: 200px;
   margin-bottom: 50px;
+}
+
+body {
+  background-color: #f9f9f9;
 }

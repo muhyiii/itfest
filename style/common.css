@@ -39,10 +39,6 @@ button {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.px {
-  padding-left: 100px;
-  padding-right: 10px;
-}
 
 #content {
   margin-top: 80px;
@@ -67,8 +63,8 @@ button {
 }
 
 .box {
-  height: 200px;
-  width: 15%;
+  height: 235px;
+  width: 17%;
   margin-top: 10px;
   /* background: tomato; */
   float: left;

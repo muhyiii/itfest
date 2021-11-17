@@ -60,51 +60,43 @@ button {
   padding-right: 10px;
 }
 
-#content {
-  margin-top: 80px;
-  text-align: center;
-}
-#content-top {
-  height: 500px;
-  /* background-color: violet; */
-  margin: auto;
-  width: 85%;
-}
-#content-top h1 {
-  font-weight: 1000;
-  font-size: 40px;
-  margin-bottom: 70px;
-  justify-content: center;
+
+
+.text-blue {
+  color: #0cafe2;
 }
 
-.inside {
-  display: flex;
-  justify-content: center;
+.text-button {
+  font-size: 15px;
 }
 
-.box {
-  height: 200px;
-  width: 15%;
-  margin-top: 10px;
-  /* background: tomato; */
-  float: left;
-  margin-right: 34px;
-
-  border-radius: 50px;
-  padding: 50px 35px 0px 35px;
-}
-.mt{
-  margin-top: 30px;
-}
-.box .imgBox img {
-  height: 100px;
+.bg-blue {
+  background-color: #0cafe2;
 }
 
-.box h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
+.sign-up {
+  padding: 6px 17px;
+  border-radius: 100px;
+  color: white;
 }
 
-#bot {
-  margin-top: 200px;
+.rounded-full{
+  border-radius: 100px;
+
+}
+
+.bg-blue:hover {
+  border-radius: 100px;
+  background-color: #fff;
+  color: #0cafe2;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+
+
+body {
+  background-color: #f9f9f9;
 }

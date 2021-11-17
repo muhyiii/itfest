@@ -22,6 +22,7 @@
 .inside {
   display: flex;
   justify-content: center;
+  margin-left: 82px;
 }
 
 .box {
@@ -30,7 +31,7 @@
   margin-top: 10px;
   /* background: tomato; */
   float: left;
-  margin-right: 34px;
+  margin-right: 98px;
 
   border-radius: 40px;
   padding: 50px 35px 0px 35px;

@@ -1,0 +1,33 @@
+#slider {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 85%;
+  height: 570px;
+}
+
+.bgSlider {
+  background: url(../assets/detail.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+
+#isiSlider {
+  width: 1400px;
+  justify-items: center;
+  position: absolute;
+  top: 550px;
+  left: 13%;
+}
+
+.titleSlider h2 {
+  color: white;
+}
+
+.contentDetail {
+  margin-top: 100px;
+  margin-left: 150px;
+}

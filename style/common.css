@@ -40,39 +40,6 @@ button {
 }
 
 
-#content {
-  margin-top: 80px;
-  text-align: center;
-}
-#content-top {
-  height: 500px;
-  /* background-color: violet; */
-  margin: auto;
-  width: 85%;
-}
-#content-top h1 {
-  font-weight: 1000;
-  font-size: 40px;
-  margin-bottom: 30px;
-  justify-content: center;
-}
-
-.inside {
-  display: flex;
-  justify-content: center;
-}
-
-.box {
-  height: 235px;
-  width: 17%;
-  margin-top: 10px;
-  /* background: tomato; */
-  float: left;
-  margin-right: 34px;
-
-  border-radius: 40px;
-  padding: 50px 35px 0px 35px;
-}
 
 .text-blue {
   color: #0cafe2;
@@ -98,7 +65,6 @@ button {
 }
 
 .bg-blue:hover {
-  padding: 6px 17px;
   border-radius: 100px;
   background-color: #fff;
   color: #0cafe2;
@@ -108,19 +74,7 @@ button {
   cursor: pointer;
 }
 
-.box .imgBox img {
-  height: 100px;
-}
 
-.box h3 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-#bot {
-  margin-top: 200px;
-  margin-bottom: 50px;
-}
 
 body {
   background-color: #f9f9f9;

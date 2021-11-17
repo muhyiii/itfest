@@ -1,0 +1,50 @@
+#top{
+    margin-top: 200px;
+}
+
+#content {
+  margin-top: 80px;
+  text-align: center;
+}
+#content-top {
+  height: 500px;
+  /* background-color: violet; */
+  margin: auto;
+  width: 85%;
+}
+#content-top h1 {
+  font-weight: 1000;
+  font-size: 40px;
+  margin-bottom: 30px;
+  justify-content: center;
+}
+
+.inside {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  height: 235px;
+  width: 17%;
+  margin-top: 10px;
+  /* background: tomato; */
+  float: left;
+  margin-right: 34px;
+
+  border-radius: 40px;
+  padding: 50px 35px 0px 35px;
+}
+.box .imgBox img {
+  height: 100px;
+}
+
+.box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#bot {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}

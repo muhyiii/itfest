@@ -29,6 +29,9 @@
 .bg-blue {
   background: #0cafe2;
 }
+.ml-1{
+  margin-left: 30px;
+}
 .text-button {
   color: #0cafe2;
 }

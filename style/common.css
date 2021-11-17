@@ -21,6 +21,9 @@
   justify-content: space-between;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 button {
   border: none;
   background: none;

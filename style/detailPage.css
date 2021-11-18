@@ -31,3 +31,28 @@
   margin-top: 100px;
   margin-left: 150px;
 }
+
+.contentDetail p ul {
+  font-weight: 100;
+  color: rgba(76, 76, 76, 1);
+}
+
+.contentTop {
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+.contentMid {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.contentBottom {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+#contentLeft{
+  margin-right: 130px;
+  width: 35%;
+}

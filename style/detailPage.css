@@ -27,6 +27,22 @@
   color: white;
 }
 
+.opacity-contain-course{
+  background-color: rgba(0, 0, 0, 0.568);
+  height: 36rem;
+  border-radius: 13px;
+  width: 100%;
+}
+
+.bg-course{
+  margin-top: 50px;
+  height: 36rem;
+  width: 100%;
+  border-radius: 13px;
+  background-image: url(../assets/detail.jpg);
+  background-size: cover;
+}
+
 .contentDetail {
   margin-top: 100px;
   margin-left: 150px;

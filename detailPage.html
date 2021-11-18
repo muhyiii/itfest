@@ -9,72 +9,29 @@
     <link rel="stylesheet" href="./style/detailPage.css" />
   </head>
   <body>
-    <!-- Atas -->
+    <div class="closing">
+      <!-- Atas -->
     <div>
       <!-- Navbar -->
-      <div>
-        <div style="padding: 30px 100px" class="flex justify-between">
-          <div
-            style="display: inline-flex; width: 100%"
-            class="justify-between"
-          >
-            <h2>Title</h2>
-            <div class="flex" style="padding-top: 20px; margin: auto">
-              <h4 class="ml-1">Home</h4>
-              <h4 class="ml-1">Aktifitas</h4>
-              <h4 class="ml-1">Semua Kelas</h4>
-            </div>
+      <nav class="flex items-center justify-between">
+        <h1 class="text-title">Title</h2>
+          <div class="flex items-center justify-center" style="margin:0 10px;">
+            <p class="navbar">Home</p>
+            <p class="navbar">Aktivitas</p>
+            <p class="navbar">Semua Kelas</p>
           </div>
-          <div class=""></div>
-          <div
-            style="
-              border-radius: 100%;
-              background-color: royalblue;
-              height: 40px;
-              width: 40px;
-            "
-          ></div>
-        </div>
-      </div>
+          <div class="circle-profile"></div>
+      </nav>
       <!-- Navbar -->
       <!-- Atas -->
       <!-- Body Atas -->
-      <div id="slider">
-        <div class="bgSlider"></div>
-        <div id="isiSlider">
-          <div class="justify-between items-center flex">
-            <div class="titleSlider">
-              <h2 style="font-size: 35px; font-weight: 600">
-                Front-end Development
-              </h2>
-              <h2
-                style="
-                  font-size: 20px;
-                  padding-top: 20px;
-                  font-weight: 200;
-                  color: rgba(185, 185, 185, 1);
-                "
-              >
-                Rp 200.000
-              </h2>
-            </div>
-            <div class="titleSlider">
-              <button
-                class="rounded-2xl shadow-lg"
-                style="
-                  background-color: rgba(255, 255, 255, 0.51);
-                  margin-top: 60px;
-                  padding: 10px 36px;
-                  color: white;
-                  font-weight: 400;
-                  font-size: large;
-                "
-              >
-                Add to cart
-              </button>
+      <div class="slider">
+          <div class="bg-course">
+            <div class="opacity-contain-course">
+              <h1 class="capitalize text-white">front-end development</h1>
+              <p class="text-white">Rp 200.000</p>
             </div>
           </div>
-        </div>
       </div>
       <!-- Body Atas -->
     </div>
@@ -154,5 +111,6 @@
       </div>
     </div>
     <!-- Tengah -->
+    </div>
   </body>
 </html>

@@ -1,0 +1,58 @@
+#slider {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  width: 85%;
+  height: 570px;
+}
+
+.bgSlider {
+  background: url(../assets/detail.jpg) no-repeat center;
+  background-size: cover;
+  height: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+
+#isiSlider {
+  width: 1400px;
+  justify-items: center;
+  position: absolute;
+  top: 550px;
+  left: 13%;
+}
+
+.titleSlider h2 {
+  color: white;
+}
+
+.contentDetail {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.contentDetail p ul {
+  font-weight: 100;
+  color: rgba(76, 76, 76, 1);
+}
+
+.contentTop {
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+.contentMid {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.contentBottom {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+#contentLeft{
+  margin-right: 130px;
+  width: 35%;
+}

@@ -1,39 +1,37 @@
-#slider {
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 20px;
-  width: 85%;
-  height: 570px;
+.left{
+  width: 67%;
+  margin-right: 22rem;
 }
 
-.bgSlider {
-  background: url(../assets/detail.jpg) no-repeat center;
+.text-title-detail{
+  font-size: 22px;
+  margin: 5rem 0 10px 0;
+}
+
+li{
+  margin-left: 4rem;
+}
+
+.padding-content{
+  padding: 0 20px ;
+}
+.mentor-profile{
+  background-image: url("https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_960_720.jpg");
   background-size: cover;
-  height: 100%;
-  border-radius: 20px;
-  position: relative;
+  height: 34px;
+  border-radius: 100%;
+  width: 34px;
 }
-
-#isiSlider {
-  width: 1400px;
-  justify-items: center;
-  position: absolute;
-  top: 550px;
-  left: 13%;
+.mentor-name{
+  font-size: 17px;
+  margin-left: 10px;
 }
-
-.titleSlider h2 {
-  color: white;
-}
-
 .opacity-contain-course{
   background-color: rgba(0, 0, 0, 0.568);
   height: 36rem;
   border-radius: 13px;
   width: 100%;
 }
-
 .bg-course{
   margin-top: 50px;
   height: 36rem;
@@ -43,32 +41,25 @@
   background-size: cover;
 }
 
-.contentDetail {
-  margin-top: 100px;
-  margin-left: 150px;
+
+.mt{
+  padding: 27rem 4rem 0 4rem;
 }
 
-.contentDetail p ul {
-  font-weight: 100;
-  color: rgba(76, 76, 76, 1);
+.title-course{
+  font-size: 26px;
 }
 
-.contentTop {
-  margin-bottom: 100px;
-  font-size: 20px;
+.price{
+  font-size: 17px;
+  color: #b9b9b9;
 }
 
-.contentMid {
-  font-size: 20px;
-  margin-bottom: 100px;
-}
-
-.contentBottom {
-  font-size: 20px;
-  margin-bottom: 100px;
-}
-
-#contentLeft{
-  margin-right: 130px;
-  width: 35%;
+.cart{
+  background-color: rgba(255, 255, 255, 0.349);
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  padding: 0 10px;
+  font-size: 17px;
 }

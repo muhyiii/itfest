@@ -37,6 +37,7 @@ body {
   height: 40px;
   border-radius: 100%;
   width: 40px;
+  margin-left: 7rem;
 }
 
 .text-title{
@@ -55,11 +56,28 @@ body {
 .border-none {
   border: none;
 }
+
+nav{
+  margin-bottom: 4rem;
+}
+
 .m-auto {
   margin: auto;
 }
 .radius {
   border-radius: 40px;
+}
+
+.icon{
+  margin: 8px 0 0 8px;
+}
+
+.cart-icon{
+  background-color: white;
+  height: 40px;
+  border-radius: 100%;
+  width: 40px;
+  margin-left: 7rem;
 }
 .bg-blue {
   background: #0cafe2;
@@ -122,6 +140,7 @@ button {
 
 .bg-blue {
   background-color: #0cafe2;
+
 }
 
 .sign-up {
@@ -138,6 +157,15 @@ button {
   border-radius: 100px;
   background-color: #fff;
   color: #0cafe2;
+}
+
+.bg-blue img:hover {
+  border-radius: 100px;
+  background-color: #fff;
+  color: #0cafe2;
+}
+.text-gray{
+  color: #878787;
 }
 
 .pointer {

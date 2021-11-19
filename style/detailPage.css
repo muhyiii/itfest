@@ -1,38 +1,38 @@
-.left{
+.left {
   width: 67%;
   margin-right: 22rem;
 }
 
-.text-title-detail{
+.text-title-detail {
   font-size: 22px;
   margin: 5rem 0 10px 0;
 }
 
-li{
+li {
   margin-left: 4rem;
 }
 
-.padding-content{
-  padding: 0 20px ;
+.padding-content {
+  padding: 0 20px;
 }
-.mentor-profile{
+.mentor-profile {
   background-image: url("https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_960_720.jpg");
   background-size: cover;
   height: 34px;
   border-radius: 100%;
   width: 34px;
 }
-.mentor-name{
+.mentor-name {
   font-size: 17px;
   margin-left: 10px;
 }
-.opacity-contain-course{
+.opacity-contain-course {
   background-color: rgba(0, 0, 0, 0.568);
   height: 36rem;
   border-radius: 13px;
   width: 100%;
 }
-.bg-course{
+.bg-course {
   margin-top: 50px;
   height: 36rem;
   width: 100%;
@@ -41,25 +41,50 @@ li{
   background-size: cover;
 }
 
-
-.mt{
+.mt {
   padding: 27rem 4rem 0 4rem;
 }
 
-.title-course{
+.title-course {
   font-size: 26px;
 }
 
-.price{
+.price {
   font-size: 17px;
   color: #b9b9b9;
 }
 
-.cart{
+.cart {
   background-color: rgba(255, 255, 255, 0.349);
   height: 40px;
   border-radius: 10px;
   color: white;
   padding: 0 10px;
   font-size: 17px;
+}
+
+@media screen and (max-width: 1920px) {
+  .bg-course {
+    margin-top: 70px;
+    height: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    border-radius: 13px;
+    background-image: url(../assets/detail.jpg);
+    background-size: cover;
+  }
+  .left {
+    width: 65%;
+    margin-right: 53rem;
+    margin-left: 120px;
+  }
+
+  .right {
+    margin-right: -129px;
+    width: 50%;
+  }
+  li {
+    margin-left: 1rem;
+  }
 }

@@ -29,7 +29,9 @@
   padding-left: 130px;
   display: flex;
 }
-
+#pelebar{
+  width: 60%; padding-inline: 30px
+}
 #img {
   border-radius: 10px;
   height: 300px;

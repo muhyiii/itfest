@@ -2,13 +2,11 @@
 
 body {
   background-color: #f9f9f9;
+  padding: 0 90px 0 90px;
   overflow-x: hidden;
 }
 
 
-.buat-body {
-  padding: 0 90px 0 90px;
-}
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;

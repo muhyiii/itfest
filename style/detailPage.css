@@ -1,6 +1,12 @@
 .left {
-  width: 67%;
-  margin-right: 22rem;
+  width: 65%;
+  margin-right: 53rem;
+  margin-left: 120px;
+}
+
+.right {
+  margin-right: -129px;
+  width: 50%;
 }
 
 .text-title-detail {
@@ -9,7 +15,7 @@
 }
 
 li {
-  margin-left: 4rem;
+  margin-left: 1rem;
 }
 
 .padding-content {
@@ -33,9 +39,11 @@ li {
   width: 100%;
 }
 .bg-course {
-  margin-top: 50px;
+  margin-top: 70px;
   height: 36rem;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
   border-radius: 13px;
   background-image: url(../assets/detail.jpg);
   background-size: cover;
@@ -63,28 +71,3 @@ li {
   font-size: 17px;
 }
 
-@media screen and (max-width: 1920px) {
-  .bg-course {
-    margin-top: 70px;
-    height: 36rem;
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-    border-radius: 13px;
-    background-image: url(../assets/detail.jpg);
-    background-size: cover;
-  }
-  .left {
-    width: 65%;
-    margin-right: 53rem;
-    margin-left: 120px;
-  }
-
-  .right {
-    margin-right: -129px;
-    width: 50%;
-  }
-  li {
-    margin-left: 1rem;
-  }
-}

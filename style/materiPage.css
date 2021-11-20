@@ -17,9 +17,9 @@ li {
   width: 95%;
 }
 
-svg {
+li svg {
   width: 20px;
-  height: 30px;
+  height: 20px;
   margin-left: 5px;
   font-weight: bold;
 }
@@ -45,4 +45,11 @@ svg {
   position: absolute;
   right: 30px;
   display: inline-flex;
+}
+
+.button svg{
+  width: 20px;
+  height: 30px;
+  margin-left: 10px;
+  font-weight: bold;
 }

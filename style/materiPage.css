@@ -19,7 +19,7 @@ li {
 
 svg {
   width: 20px;
-  height: 20px;
+  height: 30px;
   margin-left: 5px;
   font-weight: bold;
 }
@@ -42,5 +42,7 @@ svg {
 }
 
 .button{
-  
+  position: absolute;
+  right: 30px;
+  display: inline-flex;
 }

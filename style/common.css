@@ -14,7 +14,7 @@ body {
 }
 
 .closing{
-  padding: 30px 45px;
+  padding: 30px 38px;
 }
 
 .text-white{
@@ -30,7 +30,9 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-
+.relative{
+  position: relative;
+}
 .circle-profile{
   background-color: red;
   height: 40px;

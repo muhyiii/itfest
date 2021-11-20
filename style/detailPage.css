@@ -1,11 +1,9 @@
 .left {
-  width: 65%;
-  margin-right: 53rem;
-  margin-left: 120px;
+  width: 95%;
 }
 
 .right {
-  margin-right: -129px;
+  /* margin-right: -129px; */
   width: 50%;
 }
 
@@ -19,7 +17,7 @@ li {
 }
 
 .padding-content {
-  padding: 0 20px;
+  padding: 0 5rem;
 }
 .mentor-profile {
   background-image: url("https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_960_720.jpg");
@@ -43,7 +41,7 @@ li {
   height: 36rem;
   margin-left: auto;
   margin-right: auto;
-  width: 85%;
+  width: 94%;
   border-radius: 13px;
   background-image: url(../assets/detail.jpg);
   background-size: cover;
@@ -69,5 +67,41 @@ li {
   color: white;
   padding: 0 10px;
   font-size: 17px;
+  cursor: pointer;
 }
 
+@media only screen and (max-width: 1500px) {
+  .bg-course {
+    height: 36rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    border-radius: 13px;
+  }
+  .opacity-contain-course {
+    height: 36rem;
+    width: 100%;
+  }
+
+  .title-course {
+    font-size: 23px;
+  }
+  .price {
+    font-size: 13px;
+  }
+  .cart {
+    font-size: 14px;
+  }
+  .left{
+    padding-right: 40rem;
+    width: 80rem;
+  }
+
+  .text-title-detail{
+    font-size: 19px;
+  }
+
+  .tentang-kelas p, .materi ul li, .spek ul li, .detail-kelas p, .mentor p{
+    font-size: 13px;
+  }
+}

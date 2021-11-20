@@ -42,8 +42,9 @@ li svg {
 }
 
 .button{
+  top: 750px;
   position: absolute;
-  right: 30px;
+  right: 40px;
   display: inline-flex;
 }
 

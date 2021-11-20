@@ -1,10 +1,10 @@
 .left {
-  width: 95%;
+  width: 85%;
+  
 }
 
 .right {
-  /* margin-right: -129px; */
-  width: 50%;
+  width: 13%;
 }
 
 .text-title-detail {
@@ -12,8 +12,25 @@
   margin: 5rem 0 10px 0;
 }
 
+.tentang-kelas p{
+  width: 50%;
+    padding-right: 20rem;
+}
+
 li {
   margin-left: 1rem;
+}
+.button{
+  margin-top: 200px ;
+  right: 40px;
+  display: flex;
+}
+
+.button svg{
+  width: 20px;
+  height: 30px;
+  margin-left: 10px;
+  font-weight: bold;
 }
 
 .padding-content {

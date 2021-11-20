@@ -111,6 +111,19 @@ button {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.grid{
+  display: grid;
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gap{
+  gap: 3rem;
+}
+
+
 .rounded-md{
   border-radius: 0.375rem;
 }

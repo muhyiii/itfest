@@ -24,31 +24,34 @@ li svg {
   font-weight: bold;
 }
 
-.right{
+.right {
   width: 70%;
   margin-top: 30px;
 }
 
-.content h1{
+.content h1 {
   font-weight: bolder;
   font-size: 44px;
 }
 
-.content p{
+.content p {
   margin-top: 50px;
   width: 67%;
   font-size: 17px;
   text-indent: 50px;
+  font-style: normal;
+  font-weight: normal;
+  color: #000000;
 }
 
-.button{
-  top: 750px;
+.button {
+  top: 850px;
   position: absolute;
   right: 40px;
   display: flex;
 }
 
-.button svg{
+.button svg {
   width: 20px;
   height: 30px;
   margin-left: 10px;

@@ -17,6 +17,9 @@
     .list{
         margin-top: 3rem;
     }
+    .done-class{
+        margin-top: 8rem;
+    }
     .progress p{
         font-size: 1px;
         color: #5b5b5b;

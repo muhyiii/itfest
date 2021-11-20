@@ -121,4 +121,9 @@ li {
   .tentang-kelas p, .materi ul li, .spek ul li, .detail-kelas p, .mentor p{
     font-size: 13px;
   }
+  .button{
+    margin-top: 200px ;
+    right: 40px;
+    display: flex;
+  }
 }

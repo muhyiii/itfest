@@ -2,8 +2,8 @@
     padding-top: 30px;
 }
 
-.listActivity{
-    width: 75%;
+.list-activity{
+    width: 79%;
 }
 
 .activity {
@@ -64,6 +64,7 @@
 @media only screen and (max-width: 1500px) {
   .activity {
     padding: 10px 20px;
+    width: 18rem;
     border-radius: 10px;
     border: 2px solid #d2d2d2;
   }

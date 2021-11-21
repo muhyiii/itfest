@@ -1,88 +1,93 @@
-* {
-  font-family: "Poppins", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+.bg{
+  background-image: url("https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+}
+
+.bg-opacity{
+  background-color: rgba(0, 0, 0, 0.603);
+}
+.relative{
+  position: relative;
+}
+*{
   padding: 0;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
-#navPad {
-  padding: 30px 100px;
+.text-title{
+  font-size: 26px;
+  color: #5f5f5f;
+}
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.flex{
   display: flex;
-  justify-content: space-between;
 }
-#navnya {
-  display: inline-flex;
-  width: 100%;
-  justify-content: space-between;
+
+.navbar{
+  margin: 0 10px;
+  font-size: 15px;
+  font-weight: 500;
 }
-#tengNav {
-  padding-top: 20px;
-  margin: auto;
-  display: flex;
-}
-#isiData{margin: auto;}
-#profil {
-  border-radius: 100%;
-  background-color: royalblue;
+.circle-profile{
+  background-color: red;
   height: 40px;
+  border-radius: 100%;
   width: 40px;
+  margin-left: 7rem;
 }
-#img {
-  height: 500px;
+
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+
+.bg-size{
+  height: 27rem;
   width: 100%;
 }
-#kotProf {
-   margin-bottom: 20px;
-  display: flex;
-  justify-content: space-around;
- 
+.cart-icon{
+  background-color: white;
+  height: 40px;
+  border-radius: 100%;
+  width: 40px;
+  margin-left: 7rem;
+}
+.icon{
+  margin: 8px 0 0 8px;
+}
+.closing{
+  padding: 30px 4rem;
+}
+
+.info-profile{
+  padding:0 5rem;
   
 }
-#relative{
-    position: relative;
-}
-#fotoProf {
-  width: 100px;
-  height: 100px;
-  background: lavender;
+.circle-profile-info{
+  margin-right: 2rem;
+  background-color: red;
+  height: 64px;
   border-radius: 100%;
-  margin-right: 20px;
+  width: 64px;
 }
-#kotakKiri {
-  justify-self: start;
-  padding: 15px 30px;
-  border-radius: 20px;
-height: 100px;
-  margin-inline: 60px;
-  border: 1px solid #D2D2D2;
-  display: flex;
-}
-#kotakKanan {
-  padding: 15px 30px;
-  border-radius: 20px;
 
-  margin-inline: 60px;
- border: 1px solid #D2D2D2;
-}
-#course{
-  margin-top: 20px;
-  margin-left: 16px;
-}
-.kelas {
-  display: flex;
-}
-.ml-list {
-  margin-left: 30px;
-}
-.gaIjo {
-  width: 100%;
-  background: chartreuse;
-  border-radius: 10px;
-  height: 10px;
-  margin-top: 20px;
-}
-.koAkti {
-  border-radius: 10px;
-  padding: 16px;
-  width: 90%;
-  margin: 40px 15px;
- border: 2px solid #D2D2D2;
+.card-name{
+  background-color: white;
+  border: 2px solid #d2d2d2;
+  padding: 10px 20px;
+  border-radius: 13px;
+  bottom: 4rem;
 }

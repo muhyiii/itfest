@@ -44,20 +44,20 @@ li svg {
   color: #000000;
 }
 
-.button {
-  top: 800px;
+.next button {
+  top: 750px;
   position: absolute;
   right: 40px;
   display: flex;
   background-color: #0cafe2;
-          margin-top: 40px;
-          padding: 10px 36px;
-          color: white;
-          font-weight: 400;
-          font-size: large;
+  margin-top: 40px;
+  padding: 10px 33px;
+  color: white;
+  font-weight: 400;
+  font-size: large;
 }
 
-.button svg {
+.next button svg {
   width: 20px;
   height: 30px;
   margin-left: 10px;

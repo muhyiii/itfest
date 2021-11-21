@@ -45,10 +45,16 @@ li svg {
 }
 
 .button {
-  top: 850px;
+  top: 800px;
   position: absolute;
   right: 40px;
   display: flex;
+  background-color: #0cafe2;
+          margin-top: 40px;
+          padding: 10px 36px;
+          color: white;
+          font-weight: 400;
+          font-size: large;
 }
 
 .button svg {

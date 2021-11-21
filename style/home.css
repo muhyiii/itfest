@@ -1,196 +1,87 @@
-* {
-  font-family: "Poppins", sans-serif;
-  padding: 0;
-  margin: 0;
-}
-#navPad {
-  padding: 30px 100px;
-  display: flex;
-  justify-content: space-between;
-}
-#navnya {
-  display: inline-flex;
+.img-popular {
+  height: 29rem;
+  border-radius: 20px;
+  margin-inline: 13px;
   width: 100%;
-  justify-content: space-between;
-}
-#tengNav {
-  padding-top: 20px;
-  margin: auto;
-  display: flex;
+  background-image: url("https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
 }
 
-#profil {
-  border-radius: 100%;
-  background-color: royalblue;
+.opacity-bg {
+  height: 100%;
+  border-radius: 20px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.384);
+}
+
+.more {
+  font-size: 19px;
+  border-radius: 100px;
+  padding: 8px 20px;
+}
+
+.activity {
+  padding: 15px 50px 15px 15px;
+  border-radius: 10px;
+  border: 2px solid #d2d2d2;
+  margin-bottom: 20px;
+}
+
+.gray-indicator {
+  height: 8px;
+  width: 100%;
+  background-color: #e9e9e9;
+  border-radius: 100px;
+}
+.green-indicator {
+  height: 8px;
+  width: 45%;
+  background-color: #08e811;
+  border-radius: 100px;
+}
+.left {
+  width: 65rem;
+}
+.center{
+  margin-left: 50px;
+}
+.to-center{
+  padding-inline: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.arrow {
+
+  font-size: 25px;
   height: 40px;
+margin: auto;
+  padding: auto;
   width: 40px;
-}
-#konTeng {
-  padding-left: 130px;
+  
+  border-radius: 100%;
+ justify-self: center;
   display: flex;
 }
-#pelebar{
-  width: 60%; padding-inline: 30px
+.title-div{
+  margin-bottom: 20px;
 }
-#img {
-  border-radius: 10px;
-  height: 300px;
-  width: 100%;
+.arrow-move {
+  font-weight: 300;
+  text-align: center;
+  margin: auto;
 }
-#lurus {
-  margin-top: 20px;
-  display: flex;
-  justify-content: space-between;
+.standard-font{
+  font-size: 17px;
 }
-#btn {
-  padding: 12px 20px;
-  margin: 10px 0;
-  margin-right: 60px;
-  border-radius: 30px;
-  background: #0cafe2;
-  color: white;
-  border: none;
+.safe{
+  clear: both;
 }
-#marTop-20 {
-  margin-top: 200px;
+.recomendation-img{
+  border-radius: 20px;
+  height: 10rem;
+  width: 18rem;  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
 }
-#rekomend {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-#aktifitas {
-  width: 30%;
-}
-#lainnya {
-  justify-content: end;
-  margin-top: 40px;
-  padding-right: 10px;
-  display: flex;
-}
-.marTop-5 {
-  margin-top: 50px;
-}
-.ml-list {
-  margin-left: 30px;
-}
-.img-rekomend {
-  border-radius: 10px;
-  width: 100%;
-  height: 150px;
-}
-.koAkti {
-  border-radius: 10px;
-  padding: 20px;
-  width: 90%;
-  margin-top: 40px;
-  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.gaIjo {
-  width: 100%;
-  background: chartreuse;
-  border-radius: 10px;
-  height: 10px;
-  margin-top: 20px;
-}
-
-@media only screen and (max-device-width: 400px) {
-  * {
-    font-family: "Poppins", sans-serif;
-    padding: 0;
-    margin: 0;
-  }
-  #navPad {
-    padding: 30px 100px;
-    display: flex;
-    justify-content: space-between;
-  }
-  #navnya {
-    display: inline-flex;
-    width: 100%;
-    justify-content: space-between;
-  }
-  #tengNav {
-    padding-top: 20px;
-    margin: auto;
-    display: flex;
-  }
-
-  #profil {
-    border-radius: 100%;
-    background-color: royalblue;
-    height: 40px;
-    width: 40px;
-  }
-  #konTeng {
-    padding-left: 130px;
-    display: flex;
-  }
-
-  #img {
-    border-radius: 10px;
-    height: 300px;
-    width: 100%;
-  }
-  #lurus {
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-between;
-  }
-  #btn {
-    padding: 5px 20px;
-    margin: 10px 0;
-    margin-right: 60px;
-    border-radius: 30px;
-  }
-  #marTop-20 {
-    margin-top: 200px;
-  }
-  #rekomend {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  #aktifitas {
-    width: 30%;
-  }
-  #lainnya {
-    justify-content: end;
-    margin-top: 40px;
-    padding-right: 10px;
-    display: flex;
-  }
-  .marTop-5 {
-    margin-top: 50px;
-  }
-  .ml-list {
-    margin-left: 30px;
-  }
-  .img-rekomend {
-    border-radius: 10px;
-    width: 100%;
-    height: 150px;
-  }
-  .koAkti {
-    border-radius: 10px;
-    padding: 20px;
-    width: 90%;
-    margin-top: 40px;
-    --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
-      0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-      var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-  .gaIjo {
-    width: 100%;
-    background: chartreuse;
-    border-radius: 10px;
-    height: 10px;
-    margin-top: 20px;
-  }
+.recomendation{
+  font-size: 13px;
 }

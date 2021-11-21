@@ -1,118 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-
-    <link rel="stylesheet" href="Iconsax/Iconsax/css/style.css" />
-    <link rel="stylesheet" href="style/home.css" />
-  </head>
-  <body>
-    <div class="">
-      <!-- ATAS -->
-      <div class="">
-        <div id="navPad">
-          <div id="navnya">
-            <h2>TITLE</h2>
-            <div id="tengNav">
-              <h4 class="ml-list">Home</h4>
-              <h4 class="ml-list">Aktifitas</h4>
-              <h4 class="ml-list">Semua Kelas</h4>
-            </div>
-          </div>
-          <div class=""></div>
-          <div id="profil"></div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style/common.css">
+  <link rel="stylesheet" href="style/home.css">
+</head>
+<body>
+  <div class="closing">
+    <!-- navbar -->
+    <nav class="flex items-center justify-between">
+      <h1 class="text-title">Title</h2>
+        <div class="flex items-center justify-center" style="margin:0 10px;">
+          <p class="navbar">Home</p>
+          <p class="navbar">Aktivitas</p>
+          <p class="navbar">Semua Kelas</p>
         </div>
-      </div>
-      <!-- ATAS -->
-      <!-- KONTEN -->
-      <div>
-        <div id="konTeng">
-          <div id="pelebar">
-            <!-- POPULER / UTAMA -->
-            <div>
-              <h1>Populer</h1>
-              <div class="marTop-5">
-                <img
-                  id="img"
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQe2Y14DiA6VE4cvp9oQGjRJkl0QWEW2d-Q&usqp=CAU"
-                  alt=""
-                />
-                <div id="lurus">
-                  <div>
-                    <h2>UI & UX Design</h2>
-                    <h5>Rp 200.000</h5>
-                  </div>
-                  <button id="btn">Selengkapnya ></button>
-                </div>
-              </div>
-              <!-- POPULER / UTAMA -->
-              <!-- REKOMENDASI / SECOND -->
-              <div id="marTop-20">
-                <h1>Rekomendasi</h1>
-                <div id="rekomend">
-                  <div>
-                    <img
-                      class="img-rekomend"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQe2Y14DiA6VE4cvp9oQGjRJkl0QWEW2d-Q&usqp=CAU"
-                      alt=""
-                    />
-                    <h2>UI & UX Design</h2>
-                    <h5>Rp 200.000</h5>
-                  </div>
-                  <div>
-                    <img
-                      class="img-rekomend"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQe2Y14DiA6VE4cvp9oQGjRJkl0QWEW2d-Q&usqp=CAU"
-                      alt=""
-                    />
-                    <h2>UI & UX Design</h2>
-                    <h5>Rp 200.000</h5>
-                  </div>
-                  <div>
-                    <img
-                      class="img-rekomend"
-                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHQe2Y14DiA6VE4cvp9oQGjRJkl0QWEW2d-Q&usqp=CAU"
-                      alt=""
-                    />
-                    <h2>UI & UX Design</h2>
-                    <h5>Rp 200.000</h5>
-                  </div>
-                </div>
-              </div>
-              <!-- REKOMENDASI / SECOND -->
-            </div>
+        <div class="flex items-center">
+          <div class="cart-icon shadow-lg">
+            <img class="icon" src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg" alt="">
           </div>
+          <div class="circle-profile"></div>
+        </div>
+      </nav>
+      <!-- navbar -->
 
-          <div id="aktifitas">
-            <h1>Aktifitas</h1>
-            <div>
-              <div class="koAkti">
-                <h2>Fundamental Javascript</h2>
-
-                <h4>Deadline : 20/11/2021</h4>
-                <div class="gaIjo"></div>
-              </div>
-              <div class="koAkti">
-                <h2>Front End Developer</h2>
-
-                <h4>Deadline : 20/11/2021</h4>
-                <div class="gaIjo"></div>
-              </div>
-              <div class="koAkti">
-                <h2>Back End Developer</h2>
-
-                <h4>Deadline : 20/11/2021</h4>
-                <div class="gaIjo"></div>
-              </div>
+      <!-- populer -->
+      <div class="flex justify-between safe ">
+        <div class="left">
+          <h1 class="center title-div">Populer</h1>
+          <div class="flex">
+            <div class="arrow shadow-lg"><h3 class="arrow-move"><</h3> </div>
+            <div class="img-popular shadow-lg">
+              <div class="opacity-bg"></div>
             </div>
-            <h3 id="lainnya">Lainnya ></h3>
+            <div class="arrow shadow-lg"> <h3 class="arrow-move">  ></h3> </div>
+          </div>
+          <div class="flex items-center justify-between to-center">
+            <div class="">
+              <h2>Front-end Development</h2>
+              <p>Rp 200.000</p>
+            </div>
+            <div class="bg-blue text-white more pointer shadow-lg flex items-center">Selengkapnya <svg width="24" class="arrow" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.91003 19.9201L15.43 13.4001C16.2 12.6301 16.2 11.3701 15.43 10.6001L8.91003 4.08008" stroke="#ffff" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+              </div>
+          </div>
+          <div class="to-center"><h1 class="title-div">Rekomendasi</h1>
+            <div class="flex justify-between">
+              <div class=""><div class=" recomendation-img"></div> <div class="recomendation">
+              <h2>Front-end Development</h2>
+              <p>Rp 200.000</p>
+            </div></div>
+              <div class=""><div class=" recomendation-img"></div> <div class="recomendation">
+              <h2>Front-end Development</h2>
+              <p>Rp 200.000</p>
+            </div></div>
+              <div class=""><div class=" recomendation-img"></div> <div class="recomendation">
+              <h2>Front-end Development</h2>
+              <p>Rp 200.000</p>
+            </div></div>
+            </div>
+         </div>
+        </div>
+       
+        <div class="right">
+          <h1>Aktivitas</h1>
+          <div class="">
+            <div class="activity">
+              <h2 class="standard-font">Front-end Development</h2>
+              <p class="text-gray">Deadline: 20/11/2021</p>
+              
+              <div class="progress">
+                <div class="gray-indicator">
+                  <div class="green-indicator"></div>
+                </div>
+              </div>
+            </div><div class="activity">
+              <h2 class="standard-font">Front-end Development</h2>
+              <p class="text-gray">Deadline: 20/11/2021</p>
+              
+              <div class="progress">
+                <div class="gray-indicator">
+                  <div class="green-indicator"></div>
+                </div>
+              </div>
           </div>
         </div>
       </div>
-      <!-- KONTEN -->
+      <!-- populer -->
+     
+
     </div>
-  </body>
+</body>
 </html>

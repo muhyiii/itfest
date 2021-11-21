@@ -83,10 +83,10 @@ li {
 .join{
   background-color: #0cafe2;
   margin-top: 74px;
-  padding: 10px 33px;
+  padding: 10px 25px;
   color: white;
   font-weight: 400;
-  font-size: large;
+  font-size: medium;
 }
 
 @media only screen and (max-width: 1500px) {

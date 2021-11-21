@@ -118,7 +118,7 @@ li {
     font-size: 14px;
   }
   .left{
-    padding-right: 40rem;
+    padding-right: 4rem;
     width: 80rem;
   }
 
@@ -133,6 +133,9 @@ li {
     width: 10rem;
     padding: 8px 0;
     font-size: large;
+  }
+  .tentang-kelas p{
+    width: 50%;
   }
 
 }

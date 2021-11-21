@@ -1,10 +1,10 @@
 .left {
-  width: 95%;
+  width: 85%;
+  
 }
 
 .right {
-  /* margin-right: -129px; */
-  width: 50%;
+  width: 13%;
 }
 
 .text-title-detail {
@@ -12,9 +12,20 @@
   margin: 5rem 0 10px 0;
 }
 
+.tentang-kelas p{
+  width: 50%;
+    padding-right: 20rem;
+}
+
 li {
   margin-left: 1rem;
 }
+.button{
+  margin-top: 200px ;
+  right: 40px;
+  display: flex;
+}
+
 
 .padding-content {
   padding: 0 5rem;
@@ -69,17 +80,25 @@ li {
   font-size: 17px;
   cursor: pointer;
 }
+.join{
+  background-color: #0cafe2;
+  margin-top: 74px;
+  padding: 10px 33px;
+  color: white;
+  font-weight: 400;
+  font-size: large;
+}
 
 @media only screen and (max-width: 1500px) {
   .bg-course {
-    height: 36rem;
+    height: 33rem;
     margin-left: auto;
     margin-right: auto;
     width: 94%;
     border-radius: 13px;
   }
   .opacity-contain-course {
-    height: 36rem;
+    height: 33rem;
     width: 100%;
   }
 
@@ -104,4 +123,10 @@ li {
   .tentang-kelas p, .materi ul li, .spek ul li, .detail-kelas p, .mentor p{
     font-size: 13px;
   }
+  .join{
+    width: 10rem;
+    padding: 8px 0;
+    font-size: large;
+  }
+
 }

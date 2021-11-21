@@ -2,13 +2,11 @@
 
 body {
   background-color: #f9f9f9;
+  padding: 0 90px 0 90px;
   overflow-x: hidden;
 }
 
 
-.buat-body {
-  padding: 0 90px 0 90px;
-}
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -16,7 +14,7 @@ body {
 }
 
 .closing{
-  padding: 30px 45px;
+  padding: 30px 38px;
 }
 
 .text-white{
@@ -32,7 +30,9 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
-
+.relative{
+  position: relative;
+}
 .circle-profile{
   background-color: red;
   height: 40px;
@@ -112,6 +112,19 @@ button {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
+
+.grid{
+  display: grid;
+}
+
+.grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.gap{
+  gap: 3rem;
+}
+
 
 .rounded-md{
   border-radius: 0.375rem;

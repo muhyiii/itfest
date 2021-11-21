@@ -26,6 +26,12 @@ li {
   display: flex;
 }
 
+.button svg{
+  width: 20px;
+  height: 30px;
+  margin-left: 10px;
+  font-weight: bold;
+}
 
 .padding-content {
   padding: 0 5rem;
@@ -86,7 +92,7 @@ li {
   padding: 10px 25px;
   color: white;
   font-weight: 400;
-  font-size: medium;
+  font-size: large;
 }
 
 @media only screen and (max-width: 1500px) {

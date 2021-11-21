@@ -26,12 +26,6 @@ li {
   display: flex;
 }
 
-.button svg{
-  width: 20px;
-  height: 30px;
-  margin-left: 10px;
-  font-weight: bold;
-}
 
 .padding-content {
   padding: 0 5rem;
@@ -89,7 +83,7 @@ li {
 .join{
   background-color: #0cafe2;
   margin-top: 74px;
-  padding: 10px 39px;
+  padding: 10px 33px;
   color: white;
   font-weight: 400;
   font-size: large;

@@ -1,3 +1,7 @@
+* {
+  padding: 0;
+}
+
 #top {
   margin-top: 100px;
 }
@@ -61,29 +65,54 @@
   font-size: 19px;
 }
 @media only screen and (max-width: 1500px) {
+  #landing-body {
+    padding-inline: 10px;
+  }
   .img-top {
-    height: 390px;
+    display: none;
+  }
+  .btn {
+    margin-top: 20px;
+
   }
   .text-top {
     font-size: 30px;
+    width: 100%;
   }
 
   .text-after-top {
     font-size: 15px;
+    width: 100%;
   }
   .register {
     padding: 10px 26px;
     font-size: 13px;
   }
+  #content-top .flex {
+    display: block;
 
+    align-items: center;justify-content: center;margin: auto;
+
+  }
+  #content-top .flex .box {
+    width: 80%;
+align-items: center;
+  }
   #content-top h1 {
     font-size: 25px;
   }
-.box .imgBox img {
-  height: 90px;
-}
+  .box .imgBox img {
+    height: 90px;
+  }
+  #bot {
+    margin-top: 400px;
+  }
+  .justify-center{
+    justify-content: center;
+  }
   .box {
-    margin: 10px 98px 0 0;
+margin: 20px 30px;
+
     width: 35%;
     padding: 3rem 0;
   }

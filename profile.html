@@ -1,69 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style/profile.css">
-  <title>Document</title>
-</head>
-<body>
-  <div class="closing">
-    <nav class="flex items-center justify-between">
-      <h1 class="text-title">Title</h1>
-      <div class="flex items-center justify-center" style="margin: 0 10px">
-        <p class="navbar">Home</p>
-        <p class="navbar">Aktivitas</p>
-        <p class="navbar">Semua Kelas</p>
-      </div>
-      <div class="flex items-center">
-        <div class="cart-icon shadow-lg">
-          <img
-            class="icon"
-            src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg"
-            alt=""
-          />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/common.css" />
+    <link rel="stylesheet" href="/style/profile.css" />
+  </head>
+  <body>
+    <div class="closing">
+      <nav class="flex items-center justify-between">
+        <h1 class="text-title">Title</h1>
+        <div class="flex items-center justify-center" style="margin: 0 10px">
+          <p class="navbar">Home</p>
+          <p class="navbar">Aktivitas</p>
+          <p class="navbar">Semua Kelas</p>
         </div>
-        <div class="circle-profile"></div>
-      </div>
-    </nav>
-  </div>
-  <!--  -->
+        <div class="flex items-center">
+          <div class="cart-icon shadow-lg">
+            <img
+              class="icon"
+              src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg"
+              alt=""
+            />
+          </div>
+          <div class="circle-profile"></div>
+        </div>
+      </nav>
+      <!--  -->
 
-  <div>
-    <div class="bg bg-size">
-      <div class="bg-opacity bg-size"></div>
-    </div>
-    <div class="flex info-profile relative justify-between">
-      <div class="card-name flex">
-        <div class="circle-profile-info"></div>
-        <div class="info">
-          <h2>Erwin Jacook</h2>
-          <p>erwinjancok@sasageyo.com</p>
-          <p>Paradise</p>
-        </div>
-      </div>
-      <div class="kelas">
-        <div class="class-name">
-          <h1>Kelas (4)</h1>
-          <div class="activity">
-            <h2 class="standard-font">Front-end Development</h2>
-            <p class="text-gray">Deadline: 20/11/2021</p>
-            <!--  -->
-            <div class="progress">
-              <div class="flex items-center justify-between">
-                <div class="gray-indicator">
-                  <div class="green-indicator"></div>
+      <div class="flex justify-between items-center">
+        <div class="left">
+          <div class="profile">
+            <div class="bg"></div>
+            <div class="info relative">
+              <div class="img-profile"></div>
+              <div class="biodata flex justify-between">
+                <div>
+                  <h2>Muhammad Faiz Al Ghozi</h2>
+                  <p>muhammadfaizalghozi1@gmai.com</p>
+                  <p>SMK MADINATULQURAN</p>
                 </div>
-                <p class="status">48%</p>
+                <!--  -->
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.26 3.59997L5.04997 12.29C4.73997 12.62 4.43997 13.27 4.37997 13.72L4.00997 16.96C3.87997 18.13 4.71997 18.93 5.87997 18.73L9.09997 18.18C9.54997 18.1 10.18 17.77 10.49 17.43L18.7 8.73997C20.12 7.23997 20.76 5.52997 18.55 3.43997C16.35 1.36997 14.68 2.09997 13.26 3.59997Z"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M11.89 5.05005C12.32 7.81005 14.56 9.92005 17.34 10.2"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                  <path
+                    d="M3 22H21"
+                    stroke="#292D32"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <!--  -->
               </div>
             </div>
-            <!--  -->
+            <div class="sertifikat">
+              <table>
+                <tr>
+                  <th>Nama Kelas :</th>
+                  <th>Nilai : </th>
+                  <th>Tanggal kelulusan :</th>
+                </tr>
+                <tr>
+                  <td>Front-end Developer</td>
+                  <td>100</td>
+                  <td>23 September 2021</td>
+                </tr>
+              </table>
+            </div>
           </div>
         </div>
+        <div class="right"></div>
       </div>
     </div>
-  </div>
-
-</body>
+  </body>
 </html>

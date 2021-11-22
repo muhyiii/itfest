@@ -127,6 +127,9 @@
 }
 
 @media only screen and (max-width: 1500px) {
+  .classList{
+    margin-top: 1px;
+  }
   .bg-class {
     height: 4rem;
     width: 100%;
@@ -223,6 +226,14 @@
     margin-top: 35px;
   }
   .right{
-    margin-top: 50px;
+    margin-top: 40px;
+  }
+
+  .detail h3 {
+    font-size: 16px;
+  }
+
+  .detail p {
+    font-size: 16px;
   }
 }

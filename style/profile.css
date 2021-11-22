@@ -74,7 +74,10 @@
 
 .info-profile{
   padding:0 5rem;
-  
+  bottom: 4rem;
+}
+.standard-font {
+  font-size: 17px;
 }
 .circle-profile-info{
   margin-right: 2rem;
@@ -83,11 +86,35 @@
   border-radius: 100%;
   width: 64px;
 }
+.activity {
+  margin: 2rem 0;
+}
+.gray-indicator {
+  height: 8px;
+  width: 100%;
+  background-color: #e9e9e9;
+  border-radius: 100px;
+}
+.green-indicator {
+  height: 8px;
+  width: 45%;
+  background-color: #08e811;
+  border-radius: 100px;
+}
+.text-gray{
+  color: #878787;
+}
 
 .card-name{
   background-color: white;
   border: 2px solid #d2d2d2;
-  padding: 10px 20px;
+  padding: 18px 26px;
+  border-radius: 13px;
+}
+.class-name{
+  background-color: white;
+  border: 2px solid #d2d2d2;
+  padding: 18px 26px;
   border-radius: 13px;
   bottom: 4rem;
 }

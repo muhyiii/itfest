@@ -110,3 +110,15 @@
     border-radius: 100px;
   }
 }
+@media only screen and (max-width:767px){
+  body{
+    padding: 0 10px !important;
+    margin: 0;
+  }
+  .list-activity{
+    display: block;margin: auto;
+  }
+  .activity{
+    width: 80% ;margin-top: 20px;
+  }
+}

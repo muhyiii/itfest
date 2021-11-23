@@ -12,7 +12,7 @@
 }
 
 .tentang-kelas p {
-  width: 50%;
+  width: 70%;
   padding-right: 20rem;
 }
 
@@ -138,36 +138,41 @@ li {
     font-size: medium;
   }
   .tentang-kelas p {
-    width: 50%;
+    width: 70%;
   }
 }
 
 @media only screen and (max-width: 767px) {
 
+  body{
+    padding: 0 0 0 0;
+  }
+
   .closing{
     padding: 10px 0;
   }
   .left {
-    width: 85%;
+    width: 100%;
     margin-top: 30px;
   }
 
   .right {
-    width: 13%;
+    width: 100%;
   }
 
   .text-title-detail {
-    font-size: 22px;
-    margin: 5rem 0 10px 0;
+    font-size: 17px;
+    margin: 2rem 0 10px 0;
+  }
+
+  .text-title-detail p {
+    font-size: 13px;
   }
 
   .tentang-kelas p {
-    width: 132%;
-    padding-right: 110rem;
-  }
-
-  .flex{
-    display: grid;
+    font-size: 13px;
+    padding-right: 0;
+    width: 100%;
   }
 
   li {
@@ -188,6 +193,7 @@ li {
 
   .padding-content {
     padding: 0 2rem;
+    display: grid;
   }
   
   .mentor-profile {
@@ -209,23 +215,25 @@ li {
   }
   .slider{
     display: block;
-    width: max-content;
+    width: 100vw;
   }
   .bg-course {
+    border-radius: 0px;
     margin-top: 5px;
     height: 26rem;
     display: block;
-    width: 26rem;
+    width: 100%;
     background-image: url(../assets/detail.jpg);
     background-size: cover;
   }
 
   .mt {
-    padding: 27rem 2rem 0 2rem;
+    padding: 21rem 2rem 0 2rem;
+    display: grid;
   }
   
-  .text-white{
-    color: black;
+  .price {
+    padding-bottom: 50px;
   }
 
   .title-course {
@@ -240,10 +248,10 @@ li {
 
 
   .cart {
-    background-color: rgba(255, 255, 255, 0.349);
+    background-color: rgba(48, 48, 48, 0.349);
     height: 40px;
     border-radius: 10px;
-    color: white;
+    color: black;
     padding: 0 10px;
     font-size: 10px;
     cursor: pointer;
@@ -252,9 +260,10 @@ li {
   .join {
     background-color: #0cafe2;
     margin-top: 74px;
-    padding: 10px 18px;
+    width: 100%;
     color: white;
     font-weight: 400;
     font-size: large;
+    margin-bottom: 20px;
   }
 }

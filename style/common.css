@@ -57,6 +57,9 @@ body {
 .border-none {
   border: none;
 }
+.nav-2{
+  width: 60rem;
+}
 
 nav {
   margin-bottom: 4rem;
@@ -177,7 +180,17 @@ button {
 .text-gray {
   color: #878787;
 }
+.none{
+  display: none;
+}
 
 .pointer {
   cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  nav{
+    width: 10rem;
+  }
+  
 }

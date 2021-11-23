@@ -10,27 +10,36 @@
   </head>
   <body>
     <div class="closing">
-      <nav class="flex items-center justify-between">
-        <h1 class="text-title">Title</h1>
-        <div class="flex items-center justify-center" style="margin: 0 10px">
-          <p class="navbar">Home</p>
-          <p class="navbar">Aktivitas</p>
-          <p class="navbar">Semua Kelas</p>
-        </div>
-        <div class="flex items-center">
-          <div class="cart-icon shadow-lg">
-            <img
-              class="icon"
-              src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg"
-              alt=""
-            />
+      <div class="">
+        <nav class="flex items-center justify-between">
+          <h1 class="text-title">Title</h1>
+          <div class="nav flex">
+            <div
+              class="flex nav-2 items-center justify-center"
+              style="margin: 0 10px"
+            >
+              <p class="navbar">Home</p>
+              <p class="navbar">Aktivitas</p>
+              <p class="navbar">Semua Kelas</p>
+            </div>
+            <div class="flex i items-center">
+              <div class="cart-icon shadow-lg">
+                <img
+                  class="icon"
+                  src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg"
+                  alt=""
+                />
+              </div>
+              <p class="none">Cart</p>
+              <div class="circle-profile"></div>
+              <p class="none">Profile</p>
+            </div>
           </div>
-          <div class="circle-profile"></div>
-        </div>
-      </nav>
+        </nav>
+      </div>
       <!--  -->
 
-      <div class="flex justify-between items-center">
+      <div class="flex content justify-between items-center">
         <div class="left">
           <div class="profile">
             <div class="bg"></div>
@@ -78,23 +87,46 @@
                 <!--  -->
               </div>
             </div>
-            <div class="sertifikat">
-              <table>
-                <tr>
-                  <th>Nama Kelas :</th>
-                  <th>Nilai : </th>
-                  <th>Tanggal kelulusan :</th>
-                </tr>
-                <tr>
-                  <td>Front-end Developer</td>
-                  <td>100</td>
-                  <td>23 September 2021</td>
-                </tr>
-              </table>
+            <div class="reward">
+              <h2>Sertifikat</h2>
+              <div class="sertifikat flex justify-between">
+                <div id="class-name" class="certificate-info">
+                  <h6>Nama Kelas :</h6>
+                  <p>Front-end Development</p>
+                </div>
+                <div id="class-name" class="certificate-info">
+                  <h6>Nilai :</h6>
+                  <p>100</p>
+                </div>
+                <div id="class-name" class="certificate-info">
+                  <h6>Tanggal Lulus :</h6>
+                  <p>23 September 2021</p>
+                </div>
+                <button class="bg-blue shadow-lg donwload text-white pointer">
+                  Download
+                </button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="right"></div>
+        <div class="right">
+          <div class="box flex">
+            <div class="another first flex justify-between">
+              <img src="assets/blackboard.png" alt="" />
+              <div>
+                <h6>Kelas</h6>
+                <p>2</p>
+              </div>
+            </div>
+            <div class="another flex justify-between">
+              <img class="icon" src="assets/certification.png" alt="" />
+              <div>
+                <h6>Sertifikat</h6>
+                <p>1</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

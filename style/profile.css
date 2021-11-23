@@ -1,36 +1,164 @@
-.profile{
-  width: 65rem;
-  height: 32rem;
+.profile {
+  width: 95rem;
+  height: 40rem;
   border-radius: 10px;
   border: 1.5px solid #d4d4d4;
 }
-.profile .bg, .profile  .info{
+.profile .bg,
+.profile .info {
   padding: 0 4rem;
 }
-.bg{
-  height: 20rem;
-  background-color: red;
+.bg {
+  height: 27rem;
   border-radius: 10px 10px 0 0;
   background-image: url("../assets/david-schultz-SrewPUfo2c0-unsplash.jpg");
   background-size: cover;
+  background-position: bottom;
 }
-.img-profile{
+.img-profile {
   height: 9.5rem;
   width: 9.5rem;
-  background-color: rebeccapurple;
+  background-image: url("https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80");
+  background-size: cover;
   border-radius: 100px;
 }
-.biodata p{
+.biodata p {
   color: #6d6d6d;
 }
-.info{
+.info {
   bottom: 5rem;
 }
 
-.sertifikat{
-  width: 65rem;
-  /* height: 32rem; */
-  /* padding: 0 2rem; */
+.sertifikat {
+  /* width: 53rem; */
+  padding: 1rem 3rem;
   border-radius: 10px;
   border: 1.5px solid #d4d4d4;
+}
+
+.another {
+  border: 1.5px solid #d4d4d4;
+  border-radius: 10px;
+  width: 8rem;
+  padding: 1rem 8rem 1rem 0.9rem;
+  background-color: white;
+}
+.another h6 {
+  color: #6a6a6a;
+}
+.box {
+  margin-bottom: 19rem;
+}
+.another p {
+  font-size: 18px;
+  font-weight: 600;
+  color: #5b5b5b;
+}
+.first {
+  margin: 0 1rem;
+}
+
+.another img {
+  height: 50px;
+}
+
+.certificate-info h6 {
+  color: #737373;
+}
+.certificate-info p {
+  font-size: 12px;
+}
+
+.donwload {
+  padding: 0 2rem;
+  border-radius: 100px;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 1500px) {
+  .profile {
+    width: 55rem;
+    height: 27rem;
+    border-radius: 10px;
+    border: 1.5px solid #d4d4d4;
+  }
+  .profile .bg,
+  .profile .info {
+    padding: 0 4rem;
+  }
+  .bg {
+    height: 16rem;
+    border-radius: 10px 10px 0 0;
+    background-image: url("../assets/david-schultz-SrewPUfo2c0-unsplash.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+  .img-profile {
+    height: 9.5rem;
+    width: 9.5rem;
+    background-image: url("https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80");
+    background-size: cover;
+    border-radius: 100px;
+  }
+  .biodata p {
+    color: #6d6d6d;
+  }
+  .info {
+    bottom: 5rem;
+  }
+
+  .sertifikat {
+    /* width: 53rem; */
+    padding: 1rem 3rem;
+    border-radius: 10px;
+    border: 1.5px solid #d4d4d4;
+  }
+
+  .another {
+    border: 1.5px solid #d4d4d4;
+    border-radius: 10px;
+    width: 8rem;
+    padding: 1rem 8rem 1rem 0.9rem;
+    background-color: white;
+  }
+  .another h6 {
+    color: #6a6a6a;
+  }
+  .box {
+    margin-bottom: 19rem;
+  }
+  .another p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #5b5b5b;
+  }
+  .first {
+    margin: 0 1rem;
+  }
+
+  .another img {
+    height: 50px;
+  }
+
+  .certificate-info h6 {
+    color: #737373;
+  }
+  .certificate-info p {
+    font-size: 12px;
+  }
+
+  .donwload {
+    padding: 0 2rem;
+    border-radius: 100px;
+  }
+
+  .icon {
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
 }

@@ -1,6 +1,5 @@
 .left {
   width: 85%;
-  
 }
 
 .right {
@@ -12,21 +11,21 @@
   margin: 5rem 0 10px 0;
 }
 
-.tentang-kelas p{
-  width: 50%;
-    padding-right: 20rem;
+.tentang-kelas p {
+  width: 70%;
+  padding-right: 20rem;
 }
 
 li {
   margin-left: 1rem;
 }
-.button{
-  margin-top: 200px ;
+.button {
+  margin-top: 200px;
   right: 40px;
   display: flex;
 }
 
-.button svg{
+.button svg {
   width: 20px;
   height: 30px;
   margin-left: 10px;
@@ -86,7 +85,7 @@ li {
   font-size: 17px;
   cursor: pointer;
 }
-.join{
+.join {
   background-color: #0cafe2;
   margin-top: 74px;
   padding: 10px 18px;
@@ -117,25 +116,154 @@ li {
   .cart {
     font-size: 14px;
   }
-  .left{
+  .left {
     padding-right: 4rem;
     width: 80rem;
   }
 
-  .text-title-detail{
+  .text-title-detail {
     font-size: 19px;
   }
 
-  .tentang-kelas p, .materi ul li, .spek ul li, .detail-kelas p, .mentor p{
+  .tentang-kelas p,
+  .materi ul li,
+  .spek ul li,
+  .detail-kelas p,
+  .mentor p {
     font-size: 13px;
   }
-  .join{
+  .join {
     width: 10rem;
     padding: 8px 0;
     font-size: medium;
   }
-  .tentang-kelas p{
-    width: 50%;
+  .tentang-kelas p {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  body{
+    padding: 0 0 0 0;
   }
 
+  .closing{
+    padding: 10px 0;
+  }
+  .left {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .text-title-detail {
+    font-size: 17px;
+    margin: 2rem 0 10px 0;
+  }
+
+  .text-title-detail p {
+    font-size: 13px;
+  }
+
+  .tentang-kelas p {
+    font-size: 13px;
+    padding-right: 0;
+    width: 100%;
+  }
+
+  li {
+    margin-left: 1rem;
+  }
+  .button {
+    margin-top: 200px;
+    right: 40px;
+    display: flex;
+  }
+
+  .button svg {
+    width: 20px;
+    height: 30px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  .padding-content {
+    padding: 0 2rem;
+    display: grid;
+  }
+  
+  .mentor-profile {
+    background-image: url("https://cdn.pixabay.com/photo/2015/01/08/18/30/entrepreneur-593371_960_720.jpg");
+    background-size: cover;
+    height: 34px;
+    border-radius: 100%;
+    width: 34px;
+  }
+  .mentor-name {
+    font-size: 17px;
+    margin-left: 10px;
+  }
+  .opacity-contain-course {
+    background-color: rgba(0, 0, 0, 0.568);
+    height: 26rem;
+    border-radius: 13px;
+    width: 100%;
+  }
+  .slider{
+    display: block;
+    width: 100vw;
+  }
+  .bg-course {
+    border-radius: 0px;
+    margin-top: 5px;
+    height: 26rem;
+    display: block;
+    width: 100%;
+    background-image: url(../assets/detail.jpg);
+    background-size: cover;
+  }
+
+  .mt {
+    padding: 21rem 2rem 0 2rem;
+    display: grid;
+  }
+  
+  .price {
+    padding-bottom: 50px;
+  }
+
+  .title-course {
+    font-size: 20px;
+  }
+
+  .price {
+    font-size: 15px;
+    color: #b9b9b9;
+  }
+
+
+
+  .cart {
+    background-color: rgba(48, 48, 48, 0.349);
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    padding: 0 10px;
+    font-size: 10px;
+    cursor: pointer;
+    display: none;
+  }
+  .join {
+    background-color: #0cafe2;
+    margin-top: 74px;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: large;
+    margin-bottom: 20px;
+  }
 }

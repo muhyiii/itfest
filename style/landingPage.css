@@ -73,7 +73,6 @@
   }
   .btn {
     margin-top: 20px;
-
   }
   .text-top {
     font-size: 30px;
@@ -88,16 +87,7 @@
     padding: 10px 26px;
     font-size: 13px;
   }
-  #content-top .flex {
-    display: block;
 
-    align-items: center;justify-content: center;margin: auto;
-
-  }
-  #content-top .flex .box {
-    width: 80%;
-align-items: center;
-  }
   #content-top h1 {
     font-size: 25px;
   }
@@ -107,11 +97,11 @@ align-items: center;
   #bot {
     margin-top: 400px;
   }
-  .justify-center{
+  .justify-center {
     justify-content: center;
   }
   .box {
-margin: 20px 30px;
+    margin: 20px 30px;
 
     width: 35%;
     padding: 3rem 0;
@@ -120,4 +110,17 @@ margin: 20px 30px;
   .box h3 {
     font-size: 17px;
   }
+}
+@media only screen and (max-width: 676px) {
+  #content-top .flex .box {
+    width: 80%;
+    align-items: center;
+  }  #content-top .flex {
+    display: block;
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  
 }

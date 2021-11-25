@@ -258,3 +258,48 @@
     border-radius: 100px;
   }
 }
+@media only screen and (max-width: 676px) {
+  body {
+    padding: 0 10px;
+  }
+  .img-popular {
+    background-image: url("https://images.unsplash.com/photo-1593720213428-28a5b9e94613?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    height: 120px;
+    width: 100%;
+    margin: auto;
+  }
+  .no {
+    display: block;
+    width: 100%;
+  }
+  .opacity-bg {
+    display: none;
+  }
+  .left {
+    padding-inline: 0;margin: auto;
+  }
+  .content {
+    margin-inline: 20px;
+  }
+  .arrow-change {
+    display: none;
+  }
+  .info h2 {
+    font-size: 15px;
+  }
+  .more {
+    padding: 1px;
+  }
+  .right {
+    margin: auto;
+  }
+  .right h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .activity {
+    width: 80%;
+    margin: 10px 13.325px;
+  }
+}

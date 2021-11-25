@@ -53,18 +53,45 @@ a .btn-login{
   margin-right: 2rem;
 }
 .login {
-  /* display: none; */
   width: 55%;
   background-color: white;
   left: 24rem;
   border-radius: 14px;
 }
-
+.login svg{
+  height: 20px;
+  width: 100%;
+  margin: 2rem 0 0 25rem;
+}
 .login-appear{
-  transition: all 1s; 
+  transition: top 1s; 
 }
 .login-disappear{
   bottom: 54rem;
+  transition: bottom 1s;
+}
+.register{
+  border-radius: 10px;
+  background-color: white;
+  width: 50%;
+}
+.register form{
+  margin-top: 2rem;
+}
+.wrap-reg{
+  top: 3rem;
+}
+.register svg{
+  height: 20px;
+  width: 100%;
+  margin: 2rem 0 0 17rem;
+}
+.register-appear{
+  transition: top 1s; 
+}
+.register-disappear{
+  bottom: 54rem;
+  transition: bottom 1s;
 }
 
 #top {
@@ -130,9 +157,9 @@ a .btn-login{
   margin-right: 3rem;
 }
 
-.register {
+.register-button {
   margin-top: 40px;
-  padding: 16px 36px;
+  padding: 10px 30px;
   color: white;
   font-weight: 400;
   font-size: 19px;
@@ -160,15 +187,6 @@ a .btn-login{
     padding: 10px 26px;
     font-size: 13px;
   }
-  /* #content-top .flex {
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  } */
-  #content-top .flex .box {
-    width: 80%;
-    align-items: center;
-  }
   #content-top h1 {
     font-size: 25px;
   }
@@ -191,4 +209,17 @@ a .btn-login{
   .box h3 {
     font-size: 17px;
   }
+}
+@media only screen and (max-width: 676px) {
+  #content-top .flex .box {
+    width: 80%;
+    align-items: center;
+  }  #content-top .flex {
+    display: block;
+
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  
 }

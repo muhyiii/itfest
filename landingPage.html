@@ -10,6 +10,21 @@
   </head>
   <body>
     <div id="login" class="login absolute shadow-lg login-disappear">
+      <svg
+        id="x"
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 pointer w-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"
+        />
+      </svg>
       <form autocomplete="off" action="">
         <div class="divider">
           <label for="email">E-mail</label><br />
@@ -47,6 +62,85 @@
       </form>
     </div>
 
+    <div class="flex justify-center wrap-reg relative">
+      <div id="register" class="register absolute shadow-lg register-disappear">
+        <svg
+          id="x1"
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-6 pointer absolute w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M6 18L18 6M6 6l12 12"
+          />
+        </svg>
+        <form autocomplete="off" action="">
+          <div class="divider">
+            <label for="email">E-mail</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input shadow-lg"
+            />
+          </div>
+          <div class="divider">
+            <label for="username">Username</label><br />
+            <input
+              type="text"
+              name="username"
+              id="username"
+              class="input shadow-lg"
+            />
+          </div>
+          <div class="divider">
+            <label for="password">Password</label><br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input shadow-lg"
+            />
+          </div>
+          <div class="divider">
+            <label for="password-confirmation">Password Confirmation</label
+            ><br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input shadow-lg"
+            />
+          </div>
+          <hr />
+          <div class="divider flex">
+            <a href="home.html">
+              <div class="google sosmed flex items-center justify-center">
+                <p>Register with</p>
+                <img src="assets/google.png" alt="" />
+              </div>
+            </a>
+            <a href="home.html">
+              <div class="fb sosmed flex items-center justify-center">
+                <p>Register with</p>
+                <img src="assets/facebook.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <a href="home.html">
+            <div class="btn-login bg-blue text-white pointer shadow-lg">
+              Register
+            </div>
+          </a>
+        </form>
+      </div>
+    </div>
+
     <div>
       <div>
         <!-- Navbar -->
@@ -56,7 +150,10 @@
             <button id="signIn" class="text-blue sign-in text-button pointer">
               Sign in
             </button>
-            <button class="shadow-md bg-blue sign-up text-button pointer">
+            <button
+              id="signUp"
+              class="shadow-md bg-blue sign-up text-button pointer"
+            >
               Sign up
             </button>
           </div>
@@ -69,7 +166,9 @@
             <p class="text-after-top">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             </p>
-            <button class="rounded-full btn shadow-lg register bg-blue pointer">
+            <button
+              class="rounded-full btn shadow-lg register-button bg-blue pointer"
+            >
               Register Now
             </button>
           </div>

@@ -7,110 +7,149 @@
     <title>Landing Page</title>
     <link rel="stylesheet" href="./style/landingPage.css" />
     <link rel="stylesheet" href="./style/common.css" />
-    <script src="script.js"></script>
   </head>
-  <body id="landing-body">
-    <!-- ATAS -->
-    <div>
-      <!-- Navbar -->
-      <div style="margin-top: 50px;" class="flex items-center justify-between">
-        <h1>Title</h1>
-        <div>
-          <button style="background-color: white;" class="text-blue text-button pointer">Sign in</button>
-          <button
-            style="margin-left: 15px"
-            class="shadow-md bg-blue sign-up text-button pointer"
-          >
-            Sign up
-          </button>
+  <body>
+    <div id="login" class="login absolute shadow-lg login-disappear">
+      <form autocomplete="off" action="">
+        <div class="divider">
+          <label for="email">E-mail</label><br />
+          <input type="email" name="email" id="email" class="input shadow-lg" />
         </div>
-      </div>
-      <!-- Navbar -->
-      <!-- Body Atas -->
-      <div style=" font-size: 20px; margin-top: 100px;" class="flex justify-between">
-        <div>
-          <h1 class="text-top">Learn coding easier <br>with us</h1>
-          <p class="text-after-top">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <button class="rounded-full btn shadow-lg register bg-blue pointer">Register Now</button>
+        <div class="divider">
+          <label for="password">Password</label><br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="input shadow-lg"
+          />
         </div>
-        <div>
-          <img class="img-top" src="./assets/Mask Group.png" alt="">
+        <hr />
+        <div class="divider flex">
+          <a href="home.html">
+            <div class="google sosmed flex items-center justify-center">
+              <p>Login with</p>
+              <img src="assets/google.png" alt="" />
+            </div>
+          </a>
+          <a href="home.html">
+            <div class="fb sosmed flex items-center justify-center">
+              <p>Login with</p>
+              <img src="assets/facebook.png" alt="" />
+            </div>
+          </a>
         </div>
-      </div>
-      <!-- Body Atas -->
-    </div>
-    <!-- TENGAH -->
-    <div id="top">
-      <div id="content">
-        <div id="content-top">
-          <h1>Why Choose Us?</h1>
-          <div class="flex justify-center">
-            <div class="box shadow-lg">
-              <div class="isiBox">
-                <div class="imgBox">
-                  <img src="assets/teacher.png" alt="" />
-                </div>
-                <h3>Mentor Expert</h3>
-              </div>
-            </div>
-            <div class="box shadow-lg">
-              <div class="isiBox">
-                <div class="imgBox">
-                  <img src="assets/easy.png" alt="" />
-                </div>
-                <h3>Mudah Dipahami</h3>
-              </div>
-            </div>
-            <div class="box shadow-lg">
-              <div class="isiBox">
-                <div class="imgBox">
-                  <img src="assets/loss.png" alt="" />
-                </div>
-                <h3>Kelas Murah</h3>
-              </div>
-            </div>
+        <a href="home.html">
+          <div class="btn-login bg-blue text-white pointer shadow-lg">
+            Login
           </div>
-        </div>
-      </div>
-    </div>
-    <!-- TENGAH -->
-    <!-- BAWAH -->
-    <div id="bot" class="bawah">
-      <div id="content">
-        <div id="content-top">
-          <h1 id="judul">Find Course</h1>
-          <div class="flex justify-center">
-            <div class="box shadow-lg">
-              <div class="isiBox">
-                <div class="imgBox">
-                  <img src="assets/development.png" alt="" />
-                </div>
-                <h3>Mobile Development</h3>
-              </div>
-            </div>
-            <div class="box shadow-lg">
-              <div class="isiBox">
-                <div class="imgBox">
-                  <img src="assets/image 3.png" alt="" />
-                </div>
-                <h3>Web Development</h3>
-              </div>
-            </div>
-            <div class="box shadow-lg">
-              <div class="isiBox">
-                <div class="imgBox">
-                  <img src="assets/ui.png" alt="" />
-                </div>
-                <h3>UI & UX Design</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </a>
+      </form>
     </div>
 
-    <!-- BAWAH -->
+    <div>
+      <div>
+        <!-- Navbar -->
+        <div style="margin-top: 50px" class="flex items-center justify-between">
+          <h1>Title</h1>
+          <div>
+            <button id="signIn" class="text-blue sign-in text-button pointer">
+              Sign in
+            </button>
+            <button class="shadow-md bg-blue sign-up text-button pointer">
+              Sign up
+            </button>
+          </div>
+        </div>
+        <!-- Navbar -->
+        <!-- Body Atas -->
+        <div class="flex opening justify-between">
+          <div>
+            <h1 class="text-top">Learn coding easier <br />with us</h1>
+            <p class="text-after-top">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+            <button class="rounded-full btn shadow-lg register bg-blue pointer">
+              Register Now
+            </button>
+          </div>
+          <div>
+            <img class="img-top" src="./assets/Mask Group.png" alt="" />
+          </div>
+        </div>
+        <!-- Body Atas -->
+      </div>
+      <!-- TENGAH -->
+      <div id="top">
+        <div id="content">
+          <div id="content-top">
+            <h1>Why Choose Us?</h1>
+            <div class="flex justify-center">
+              <div class="box shadow-lg">
+                <div class="isiBox">
+                  <div class="imgBox">
+                    <img src="assets/teacher.png" alt="" />
+                  </div>
+                  <h3>Mentor Expert</h3>
+                </div>
+              </div>
+              <div class="box shadow-lg">
+                <div class="isiBox">
+                  <div class="imgBox">
+                    <img src="assets/easy.png" alt="" />
+                  </div>
+                  <h3>Mudah Dipahami</h3>
+                </div>
+              </div>
+              <div class="box shadow-lg">
+                <div class="isiBox">
+                  <div class="imgBox">
+                    <img src="assets/loss.png" alt="" />
+                  </div>
+                  <h3>Kelas Murah</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- TENGAH -->
+      <!-- BAWAH -->
+      <div id="bot" class="bawah">
+        <div id="content">
+          <div id="content-top">
+            <h1 id="judul">Find Course</h1>
+            <div class="flex justify-center">
+              <div class="box shadow-lg">
+                <div class="isiBox">
+                  <div class="imgBox">
+                    <img src="assets/development.png" alt="" />
+                  </div>
+                  <h3>Mobile Development</h3>
+                </div>
+              </div>
+              <div class="box shadow-lg">
+                <div class="isiBox">
+                  <div class="imgBox">
+                    <img src="assets/image 3.png" alt="" />
+                  </div>
+                  <h3>Web Development</h3>
+                </div>
+              </div>
+              <div class="box shadow-lg">
+                <div class="isiBox">
+                  <div class="imgBox">
+                    <img src="assets/ui.png" alt="" />
+                  </div>
+                  <h3>UI & UX Design</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- BAWAH -->
+    </div>
   </body>
+  <script src="js/landingPage.js"></script>
 </html>

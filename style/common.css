@@ -188,9 +188,23 @@ button {
   cursor: pointer;
 }
 
+.absolute{
+  position: absolute;
+}
+
 @media only screen and (max-width: 767px) {
-  nav{
-    width: 10rem;
+  .text-title{
+    font-size: 40px;
+    margin-right: 20rem;
   }
-  
+  .navbar{
+    font-size: 25px;
+  }
+  .nav-2{
+    margin-right: 30rem;
+    width: 34rem;
+  }
+  .cart-icon{
+    display: none;
+  }
 }

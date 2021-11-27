@@ -9,24 +9,34 @@
     <title>Kelas</title>
   </head>
   <body>
+    <div id="shop" class="relative cart-page-dis">
+      <div class="slide-cart shadow-lg absolute inset-0">
+        <p class="text-center text-gray">Kosong</p>
+      </div>
+    </div>
     <div class="closing">
-      <!-- Navbar -->
+      <!-- navbar -->
       <nav class="flex items-center justify-between">
-        <h1 class="text-title">Title</h1>
-        <div class="flex items-center justify-center" style="margin: 0 10px">
-          <p class="navbar">Home</p>
-          <p class="navbar">Aktivitas</p>
-          <p class="navbar">Semua Kelas</p>
+        <h1 class="text-title">Scio<span class="text-blue">Lab</span></h1>
+        <div
+          class="flex items-center justify-center menu"
+          style="margin: 0 10px"
+        >
+          <a href="home.html"><p class="navbar">Home</p></a>
+          <a href="home.html"><p class="navbar">Aktivitas</p></a>
+          <p class="navbar text-blue">Semua Kelas</p>
         </div>
         <div class="flex items-center">
-          <div class="cart-icon shadow-lg">
+          <div id="icon" class="cart-icon shadow-lg pointer">
             <img
               class="icon"
               src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg"
               alt=""
             />
           </div>
-          <div class="circle-profile"></div>
+          <a href="profile.html">
+            <div class="circle-profile"></div>
+          </a>
         </div>
       </nav>
       <!-- Navbar -->
@@ -36,31 +46,31 @@
             <div class="grid list grid-cols-2 gap list-class">
               <div class="class">
                 <div class="bg-class"></div>
-               <div class="detail">
-                <h3>UI & UX Design</h3>
-                <p>Rp 200.000</p>
-               </div>
+                <div class="detail">
+                  <h3>UI & UX Design</h3>
+                  <p>Rp 200.000</p>
+                </div>
               </div>
               <div class="class">
                 <div class="bg-class"></div>
-               <div class="detail">
-                <h3>UI & UX Design</h3>
-                <p>Rp 200.000</p>
-               </div>
+                <div class="detail">
+                  <h3>UI & UX Design</h3>
+                  <p>Rp 200.000</p>
+                </div>
               </div>
               <div class="class">
                 <div class="bg-class"></div>
-               <div class="detail">
-                <h3>UI & UX Design</h3>
-                <p>Rp 200.000</p>
-               </div>
+                <div class="detail">
+                  <h3>UI & UX Design</h3>
+                  <p>Rp 200.000</p>
+                </div>
               </div>
               <div class="class">
                 <div class="bg-class"></div>
-               <div class="detail">
-                <h3>UI & UX Design</h3>
-                <p>Rp 200.000</p>
-               </div>
+                <div class="detail">
+                  <h3>UI & UX Design</h3>
+                  <p>Rp 200.000</p>
+                </div>
               </div>
             </div>
           </div>
@@ -68,24 +78,28 @@
             <div id="listItem">
               <div class="fasilitasValue">
                 <div class="items">
-                  <label class="container">Semua
-                    <input type="checkbox" checked="checked">
+                  <label class="container"
+                    >Semua
+                    <input type="checkbox" checked="checked" />
                     <span class="checkmark rounded-lg"></span>
                   </label>
-                  <label class="container">Gratis
-                    <input type="checkbox">
+                  <label class="container"
+                    >Gratis
+                    <input type="checkbox" />
                     <span class="checkmark rounded-lg"></span>
                   </label>
-                  <label class="container">Berbayar
-                    <input type="checkbox">
+                  <label class="container"
+                    >Berbayar
+                    <input type="checkbox" />
                     <span class="checkmark rounded-lg"></span>
                   </label>
                 </div>
+              </div>
             </div>
-          </div>
           </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="js/cart.js"></script>
 </html>

@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
+.inset-0{
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+}
+.text-center{
+  text-align: center;
+}
+.menu a{
+  text-decoration: none;
+  color: #b8b8b8;
+}
+.cart-page{
+  left: 81.5%;
+  top: 7rem;
+}
+.cart-page-dis{
+  left: 81.5%;
+  top: -17rem;
+}
+.slide-cart{
+  padding: 5rem 0;
+  width: 10rem;
+  border-radius: 10px;
+  background-color: white;
+}
 body {
   background-color: #f9f9f9;
   padding: 0 90px 0 90px;
@@ -43,7 +70,6 @@ body {
 
 .text-title {
   font-size: 26px;
-  color: #5f5f5f;
 }
 .flex {
   display: flex;
@@ -119,7 +145,15 @@ button {
 .grid {
   display: grid;
 }
-
+footer{
+  margin-bottom: 3rem;
+}
+#shop{
+  z-index: 10;
+}
+a{
+  text-decoration: none;
+}
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }

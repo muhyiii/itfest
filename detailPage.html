@@ -9,19 +9,29 @@
     <link rel="stylesheet" href="./style/detailPage.css" />
   </head>
   <body>
+    <div id="shop" class="relative cart-page-dis ">
+      <div class="slide-cart shadow-lg absolute inset-0">
+        <p class="text-center text-gray">Kosong</p>
+      </div>
+    </div>
     <div class="closing">
-      <!-- Atas -->
-      <div>
-        <!-- Navbar -->
-        <!-- <nav class="flex items-center justify-between">
-          <h1 class="text-title">Title</h1>
-          <div class="flex items-center justify-center" style="margin: 0 10px">
-            <p class="navbar">Home</p>
-            <p class="navbar">Aktivitas</p>
-            <p class="navbar">Semua Kelas</p>
+      <!-- navbar -->
+      <nav class="flex items-center justify-between">
+        <h1 class="text-title">Scio<span class="text-blue">Lab</span></h1>
+          <div class="flex items-center justify-center menu" style="margin:0 10px;">
+            <a href="home.html"><p class="navbar text-blue">Home</p></a>
+            <a href="activity.html"><p class="navbar">Aktivitas</p></a>
+            <a href="classPage.html"><p class="navbar">Semua Kelas</p></a>
           </div>
-          <div class="circle-profile"></div>
-        </nav> -->
+          <div class="flex items-center">
+            <div id="icon" class="cart-icon shadow-lg pointer">
+              <img class="icon" src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg" alt="">
+            </div>
+            <a href="profile.html">
+              <div class="circle-profile"></div>
+            </a>
+          </div>
+        </nav>
         <!-- Navbar -->
         <!-- Atas -->
         <!-- Body Atas -->
@@ -94,4 +104,5 @@
       <!-- Tengah -->
     </div>
   </body>
+  <script src="js/cart.js"></script>
 </html>

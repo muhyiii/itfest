@@ -9,30 +9,27 @@
     <link rel="stylesheet" href="/style/profile.css" />
   </head>
   <body>
+    <div id="shop" class="relative cart-page-dis ">
+      <div class="slide-cart shadow-lg absolute inset-0">
+        <p class="text-center text-gray">Kosong</p>
+      </div>
+    </div>
     <div class="closing">
-      <div class="">
-        <nav class="flex items-center justify-between">
-          <h1 class="text-title">Title</h1>
-          <div class="nav flex">
-            <div
-              class="flex nav-2 items-center justify-center"
-            >
-              <p class="navbar">Home</p>
-              <p class="navbar">Aktivitas</p>
-              <p class="navbar">Semua Kelas</p>
+      <!-- navbar -->
+      <nav class="flex items-center justify-between">
+        <h1 class="text-title">Scio<span class="text-blue">Lab</span></h1>
+          <div class="flex items-center justify-center menu" style="margin:0 10px;">
+            <p class="navbar text-blue">Home</p>
+            <a href="activity.html"><p class="navbar">Aktivitas</p></a>
+            <a href="classPage.html"><p class="navbar">Semua Kelas</p></a>
+          </div>
+          <div class="flex items-center">
+            <div id="icon" class="cart-icon shadow-lg pointer">
+              <img class="icon" src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg" alt="">
             </div>
-            <div class="flex i items-center">
-              <div class="cart-icon shadow-lg">
-                <img
-                  class="icon"
-                  src="Iconsax/Iconsax/Svg/All/linear/shopping-cart.svg"
-                  alt=""
-                />
-              </div>
-              <p class="none">Cart</p>
+            <a href="profile.html">
               <div class="circle-profile"></div>
-              <p class="none">Profile</p>
-            </div>
+            </a>
           </div>
         </nav>
       </div>
@@ -128,5 +125,9 @@
         </div>
       </div>
     </div>
+    <footer style="margin-top: 13rem;">
+      <div class="text-center">Icons made from <a target="blank" href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
   </body>
+  <script src="js/cart.js"></script>
 </html>
